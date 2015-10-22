@@ -1,7 +1,8 @@
 ## Put comments here that give an overall description of what your
 ## functions do
-
+## makeCacheMatrix stores a matrix object X in memory
 ## Write a short comment describing this function
+## makeCacheMatrix uses scoping rules and stores matrices in memory
 ## makeCacheMatrix creates a "matrix" object that can cache it's inverse.
 
 makeCacheMatrix <- function(x = matrix()) {
@@ -21,6 +22,7 @@ makeCacheMatrix <- function(x = matrix()) {
 
 ## Write a short comment describing this function
 ## cacheSolve computes the inverse of the special "matrix" object that can cache it's inverse.
+## cacheSolve shows the inverse of a matrix if it's in memory. If not, computes the inverse and then shows the inverse.
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
